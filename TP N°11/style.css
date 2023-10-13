@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.Titulo{
+    font-family: 'Anton', sans-serif;
+}
+
+.Frase {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Subtitulo{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Titulo1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2  {
+     font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.header {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 70px;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.header .nav-links li a:hover {
+    color: #ffbc0e;
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header .btn button:hover {
+    background: rgb(255, 255, 255);
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+
+th, td {
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align: center;
+  }
+
+
+/* --------------------------------------  Estilo de cada liga ------------------------------------ */
+
+.Inicio{
+    --background-color: #153800;
+    --font-color: #ffffff;
+}
+
+.PremierLeague {
+    --background-color: #00eeff;
+    --font-color: #a401f0;
+}
+
+.SerieA {
+    --background-color: #14059c;
+    --font-color: #ffffff;
+}
+
+.LaLiga {
+    --background-color: #ff050541;
+    --font-color: #ffffff;
+}
+
+.Bundesliga {
+    --background-color: #ff0000;
+    --font-color: #ffffff;
+}
+
+.Ligue1 {
+    --background-color: #0c09c996;
+    --font-color: #ffffff;
+}
+
+.Envios{
+    --background-color: #09c95396;
+    --font-color: #ffffff;
+}
+
+.header.Inicio{
+    background-color: var(--background-color);
+}
+
+.header.PremierLeague {
+    background-color: var(--background-color);
+}
+
+.header.SerieA {
+    background-color: var(--background-color);
+}
+
+.header.LaLiga {
+    background-color: var(--background-color);
+}
+
+.header.Bundesliga {
+    background-color: var(--background-color);
+}
+
+.header.Ligue1 {
+    background-color: var(--background-color);
+}
+
+.header.Envios{
+    background-color: var(--background-color);
+}
+
+/* ------------------------------ Contenedores de los diferentes equipos -------------------- */
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    height: 320px;
+    margin: 10px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+}
+
+.liverpool{
+    background-color: #800020;
+    color: white;
+}
+
+.man-united{
+    background-color: red;
+    color: gold;
+}
+
+.man-city{
+     background-color: #6FA5D6 ;
+     color: #333333;
+}
+
+.arsenal{
+    background-color: red;
+    color: white;
+}
+
+.chelsea{
+    background-color:  blue;
+    color: white;
+}
+
+.tottenham{
+    background-color: white;
+    color: blue;
+}
+
+.milan{
+    background-color: black;
+    color: red;
+}
+
+.inter{
+    background-color: black;
+    color: blue;
+}
+
+.juventus{
+    background-color: black;
+    color: white;
+}
+
+.napoli{
+    background-color: #87CEEB;
+    color: white;
+}
+
+.real-madrid{
+    background-color: white;
+    color: #0c09c996;
+}
+
+.barcelona{
+    background-color: blue;
+    color: red;
+}
+
+.atleti{
+    background-color: #DA0303;
+    color: white;
+}
+
+.bayern{
+    background-color: red;
+    color: white;
+}
+
+.borussia{
+    background-color: rgb(248, 248, 37);
+    color: rgb(0, 0, 0);
+}
+
+.psg{
+    background-color: blue;
+    color: red;
+}
+
+.holanda{
+    background-color: orange;
+    color: black;
+}
+
+.brasil{
+    background-color: yellow;
+    color: green;
+}
+
+.berazategui{
+    background-color: orange;
+    color: white;
+}
+
+.español{
+    background-color: black;
+    color: red;
+}
+
+.porvenir{
+    background-color: whitesmoke;
+    color: black;
+}
