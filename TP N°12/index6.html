@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de Envíos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header Envios">
+        <element class="logo"><img src="Logo Envios.png" alt="logo de la marca" width="70px" height="70px"> </element>
+    <nav>
+       <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index1.html">Premier League</a></li>
+            <li><a href="index2.html">Serie A</a></li>
+            <li><a href="index3.html">La Liga</a></li>
+            <li><a href="index4.html">Bundesliga</a></li>
+            <li><a href="index5.html">Ligue 1</a></li>               
+            <li><a href="index6.html">Envios</a></li>
+       </ul>            
+    </nav>
+    <a class="btn" href="#"><button>Contacto</button></a>
+  </header>
+
+    <header>
+        <div class="Titulo1"><h1> Bienvenido a Nuestro Servicio de Envíos </h1></div>
+        <div class="Frase"><h2> Enviamos tus paquetes de manera rápida y confiable. </h2></div>
+    </header>
+    
+    <main>
+        <section id="envio-form">
+            <h2>Solicitar Envío</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="direccion">Dirección de Envío:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <label for="tipo-envio">Tipo de Envío:</label>
+                <select id="tipo-envio" name="tipo-envio">
+                    <option value="estandar">Envío Estándar</option>
+                    <option value="urgente">Envío Urgente</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="rastreo">
+            <h2>Rastrear Envío</h2>
+            <form>
+                <label for="numero-seguimiento">Número de Seguimiento:</label>
+                <input type="text" id="numero-seguimiento" name="numero-seguimiento" required>
+
+                <button type="submit">Rastrear</button>
+            </form>
+        </section>
+    </main>
+    
+    <div class="Frase"><h2>&copy; 2023 Servicio de Envíos </h2></div>
+
+</body>
+</html>
